@@ -38,7 +38,7 @@
 Your task is to write several functions that are the solution to the subtasks. Subtasks descriptions, as well as instructions on how to run tests and submit solutions are below.
 
 ---
-
+<!-- 
 ### **Count cats!**
 
 ![Count cats!](https://vg5b2ejdwb-flywheel.netdna-ssl.com/wp-content/uploads/2019/11/cats-in-boxes-03.jpg)  
@@ -111,7 +111,7 @@ For example:
 
 Write your code in `src/dream-team.js`.
 
----
+--- -->
 
 ### **What season?**
 
@@ -145,7 +145,7 @@ For example:
 Write your code in `src/what-season.js`.
 
 ---
-
+<!-- 
 ### **Tower of Hanoi**
 
 ![Tower of hanoi visualisation](https://ioecapsule.com/wp-content/uploads/2019/08/tower_of_hanoi_3_disks.gif)  
@@ -196,7 +196,7 @@ The function must not affect inital array. Control sequences are applied **from 
 
 Write your code in `src/transform-array.js`.
 
----
+--- -->
 
 ### **Chain maker**
 

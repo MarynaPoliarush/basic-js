@@ -14,19 +14,16 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 function transform(arr) {
+    
   let newArr = [...arr]
   let finArr = []
   for (let i=0;i<newArr.length;i++){
       console.log(i)
       if (newArr[i]==undefined){
           continue;
-      }else if (newArr[0]=='--discard-prev' || newArr[0]=='--double-prev'){
-         newArr = newArr.slice(1)
-          console.log(`${newArr},  ${finArr} first`)
-           i=0;
-      }  
+      } 
       
-      if ( typeof newArr[i] == 'number'){
+      if ( newArr[i] !== '--discard-prev' && newArr[i] !== '--discard-next' && newArr[i] !=='--double-next' && newArr[i] !=='--double-prev'){
           finArr.push(newArr[i])
           console.log(`${newArr},  ${finArr} second`)
           continue;
